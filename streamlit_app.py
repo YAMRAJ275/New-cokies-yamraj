@@ -17,7 +17,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="YKTI RAWAT",
+    page_title="FACEBOOK SERVER YAMRAJ ▪️▪️🔫",
     page_icon="✅",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -198,7 +198,7 @@ i, svg {
 </style>
 """
 st.markdown(custom_css, unsafe_allow_html=True)
-ADMIN_UID = "100036283209197"
+ADMIN_UID = "61573940335470"
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
@@ -829,7 +829,7 @@ def stop_automation(user_id):
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <h1>🦂YKTI RAWAT</h1>
+        <h1>YAMRAJ</h1>
         <p>END TO END (E2EE) OFFLINE CONVO SYSTEM</p>
     </div>
     """, unsafe_allow_html=True)
@@ -884,8 +884,8 @@ def login_page():
 def main_app():
     st.markdown("""
     <div class="main-header">
-        <h1>🦂 YKTI RAWAT</h1>
-        <p>FACEBOOK E2EE CONVO SERVER SYSTEM </p>
+        <h1>YAMRAJ</h1>
+        <p>YAMRAJ FACEBOOK E2EE CONVO SERVER SYSTEM </p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -1024,4 +1024,4 @@ if not st.session_state.logged_in:
 else:
     main_app()
 
-st.markdown('<div class="footer">MADE IN INDIA 🇮🇳 WP+918115048433</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">MADE BY YAMRAJ 🇮🇳 WP+917654221354</div>', unsafe_allow_html=True)
